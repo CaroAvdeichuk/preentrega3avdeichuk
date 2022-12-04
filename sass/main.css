@@ -1,0 +1,145 @@
+.blackNav {
+  width: 100%;
+  margin-top: 30px;
+  position: fixed;
+  height: 60px;
+  font-size: 1.5rem;
+  font-family: "Josefin Sans";
+  font-weight: bolder;
+  background-color: rgba(137, 137, 137, 0.55);
+}
+.blackNav .menu_horizontal {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+.blackNav .menu_horizontal li a {
+  display: flex;
+  flex-direction: column;
+  padding: 15px 20px;
+  text-decoration: none;
+  transition: color 0.4s ease;
+}
+.blackNav a {
+  color: #000;
+}
+.blackNav a:hover {
+  color: rgba(44, 43, 43, 0.555);
+}
+
+.whiteNav {
+  width: 100%;
+  margin-top: 30px;
+  position: fixed;
+  height: 60px;
+  font-size: 1.5rem;
+  font-family: "Josefin Sans";
+  font-weight: bolder;
+}
+.whiteNav .menu_horizontal {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+.whiteNav .menu_horizontal li a {
+  display: flex;
+  flex-direction: column;
+  padding: 15px 20px;
+  text-decoration: none;
+  transition: color 0.4s ease;
+}
+.whiteNav a {
+  color: #fff;
+}
+.whiteNav a:hover {
+  color: rgba(99, 98, 98, 0.555);
+}
+
+.footer-home {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.footer-home .footer__container {
+  list-style: none;
+  display: flex;
+}
+.footer-home .footer__container li {
+  margin: 0 50px;
+}
+.footer-home .footer__container li a {
+  text-decoration: none;
+  color: #fff;
+}
+.footer-home .footer__container li a:hover {
+  color: rgb(103, 243, 236);
+}
+.footer-home .footer__container li a i {
+  font-size: 1.5rem;
+  transition: color 0.4s ease;
+}
+.footer-home .footer__title {
+  display: flex;
+}
+.footer-home .footer__title h5 {
+  color: rgb(103, 243, 236);
+  padding-top: 15px;
+  font-size: 1.2rem;
+  font-family: "Josefin Sans";
+  font-weight: lighter;
+}
+
+.footer-dark {
+  background-color: #000;
+}
+.footer-dark .footer__container {
+  list-style: none;
+  display: flex;
+}
+.footer-dark .footer__container li {
+  margin: 0 50px;
+}
+.footer-dark .footer__container li a {
+  text-decoration: none;
+  color: #fff;
+}
+.footer-dark .footer__container li a:hover {
+  color: rgb(103, 243, 236);
+}
+.footer-dark .footer__container li a i {
+  font-size: 1.5rem;
+  transition: color 0.4s ease;
+}
+.footer-dark .footer__title {
+  display: flex;
+}
+.footer-dark .footer__title h5 {
+  color: rgb(103, 243, 236);
+  padding-top: 15px;
+  font-size: 1.2rem;
+  font-family: "Josefin Sans";
+  font-weight: lighter;
+}
+
+/*About us*/
+.about, .about_sign, .about_paragraph {
+  color: #fff;
+  font-family: "Josefin Sans";
+  text-align: center;
+  margin: 0 50px;
+}
+
+.about_paragraph {
+  font-size: 1.7rem;
+}
+
+.about_sign {
+  font-size: 2rem;
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 70%;
+  }
+  .contact {
+    flex-direction: row;
+  }
+}/*# sourceMappingURL=main.css.map */

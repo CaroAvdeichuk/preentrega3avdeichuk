@@ -1,0 +1,18 @@
+/*About us*/
+.about {
+    color: $white;
+    font-family: "Josefin Sans";
+    text-align: center;
+    margin: 0 50px;
+}
+
+.about_paragraph {
+    @extend .about;
+    font-size: 1.7rem;
+}
+
+.about_sign {
+    @extend .about;
+    font-size: 2rem;
+}
+

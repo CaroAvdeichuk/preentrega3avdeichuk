@@ -1,0 +1,53 @@
+@mixin nav {
+    width: 100%;
+    margin-top: 30px;
+    position: fixed;
+    height: 60px;
+
+    font: {
+        size: 1.5rem;
+        family: "Josefin Sans";
+        weight: bolder;
+    }
+
+    .menu_horizontal {
+        list-style: none;
+        display: flex;
+        justify-content: space-evenly;
+
+        li a {
+            display: flex;
+            flex-direction: column;
+            padding: 15px 20px;
+            text-decoration: none;
+            transition: color .4s ease;
+        }
+
+    }
+
+}
+
+.blackNav {
+    @include nav;
+    background-color: rgb(137 137 137 / 55%);
+
+    a {
+        color: $black;
+    }
+
+    a:hover {
+        color: rgba(44, 43, 43, 0.555);
+    }
+}
+
+.whiteNav {
+    @include nav;
+
+    a {
+        color: $white;
+    }
+
+    a:hover {
+        color: rgba(99, 98, 98, 0.555);
+    }
+}
